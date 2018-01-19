@@ -1,0 +1,4 @@
+.container {
+    grid-template-columns: 12;
+    grid-template-rows: 16
+}
