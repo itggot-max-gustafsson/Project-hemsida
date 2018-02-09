@@ -5,12 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Document</title>
+    <script src="js/javascript.js"></script>
 </head>
 <body>
     <div class="container">
+        <div class="dropdowncontainer">
+            <div class="nav2">
+                <a onclick="dropdown()"><i class="fa fa-reorder fa-3x"></i></a>
+            </div>
+        </div>    
         <header>
-            <div class="nav"></div>
+            <div class="nav">
+                <a onclick="dropdown()"><i class="fa fa-reorder fa-3x"></i></a>
+            </div>
             <div class="topshit"></div>
             <div class="login"></div>
         </header>
@@ -18,9 +27,16 @@
             <div class="buy"></div>
         </div>
         <div class="bottom">
-            <aside class="tider"></aside>
+            <aside class="tider">
+                <h4>Tider</h4>
+                <h5>Mon 9:00 - 15:00</h5>
+                <h5>Tis 9:00 - 15:00</h5>
+                <h5>Ons 9:00 - 15:00</h5>
+                <h5>Tor 9:00 - 15:00</h5>
+                <h5>Fre 9:00 - 15:00</h5>
+            </aside>
             <aside class="secondpic"></aside>
         </div>
-    </div>    
+    </div>
 </body>
 </html>
