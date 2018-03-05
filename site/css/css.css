@@ -7,7 +7,7 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(16, 1fr);
+    grid-template-rows: repeat(13, 1fr);
     background-color: black;
 }
 
@@ -22,23 +22,23 @@ header {
 
 .nav {
     grid-column: 1/2;
-    background-color: coral;
+    background-color: wheat;
     text-align:center;
 }
 
 .topshit {
     grid-column: 2/4;
-    background-color: blanchedalmond;
+    background-color: wheat;
+    text-align: center;
 }
 
 .login {
     grid-column: 4/5;
-    background-color: rebeccapurple;
+    background-color: wheat;
 }
 
 .mainpic {
     grid-row: span 6;
-    background-color: rosybrown;
     grid-column: 1/13;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -46,13 +46,16 @@ header {
 }
 
 .buy {
-    grid-column: 2/3;
-    grid-row: 6/7;
+    grid-column: 1/2;
+    grid-row: 4/5;
     background-color: green;
+    color: wheat;
+    border: 2px solid wheat;
+    text-align: center;
 }
 
 .bottom {
-    grid-row: 10/17;
+    grid-row: 5/14;
     grid-column: 1/13;
     display: grid;
     grid-template-columns: repeat(12, 1fr);
@@ -62,7 +65,7 @@ header {
 .tider {
     grid-column: 1/6;
     grid-row: 1/2;
-    background-color: blue;
+    background-color: green;
     text-align: center;
     color: wheat;
     line-height: 70%;
@@ -71,24 +74,42 @@ header {
 .secondpic {
     grid-column: 6/13;
     grid-row: 1/2;
-    background-color: yellow;
+    background-color: wheat;
 }
 
 .dropdowncontainer {
     grid-column: 1/13;
-    grid-row: 1/17;
-    display: none;
+    grid-row: 1/14;
     position: absolute;
-    background-color: black;
 }
 
 .nav2 {
-    grid-column: 1/2;
-    background-color: yellow;
+    grid-column: 1/6;
+    grid-row: 1/17;
+    background-color: green;
     text-align:center;
+    padding-left: 15px;    
 }
 
 i {
     margin: auto;
     margin-top: 5%;
+}
+
+.show {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+}
+
+.unshow {
+    display: none
+}
+
+div { 
+    margin: 0%;
+}
+
+img {
+    width: 100vw;
 }
