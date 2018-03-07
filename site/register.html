@@ -16,14 +16,20 @@
                 <a onclick="dropdown()"><i class="fa fa-reorder fa-3x"></i></a>
             </div>
         </div>    
-            <header>
-                <div class="nav">
-                    <a onclick="dropdown()"><i class="fa fa-reorder fa-3x"></i></a>
-                </div>
-                <div class="topshit"></div>
-                <div class="login"><i class="fa fa-street-view fa-3x"></i></div>
-            </header>
-        </div> 
-    </div> 
+        <header>
+            <div class="nav">
+                <a onclick="dropdown()"><i class="fa fa-reorder fa-3x"></i></a>
+            </div>
+            <div class="topshit"></div>
+            <div class="login"><i class="fa fa-street-view fa-3x"></i></div>
+        </header>
+        <form action="./action_page.php" method="get">
+            <p style = "font-size:24xp">Enter phrase in SRX:</p>
+            <input name="Username" type="text"><br>
+            <input name="Email" type="text"><br>
+            <input name="Password" type="password"><br>
+            <input type="submit" value="Register">
+        </form>
+    </div>  
 </body>
 </html>
