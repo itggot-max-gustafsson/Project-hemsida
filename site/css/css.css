@@ -85,6 +85,8 @@ header {
     grid-column: 1/13;
     grid-row: 1/14;
     position: absolute;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
 }
 
 .nav2 {
@@ -137,11 +139,25 @@ input {
 
 .submit {
     align-self: center;
-    grid-column: 9/11;
-    width: 60%
+    width: 40%
 }
 
 p {
     font-family: 'Mina', sans-serif;
     text-align: center;
+}
+
+.reg {
+    color: black;
+    grid-row: 4/6;
+    grid-column: 8/11;
+    border: solid 2px green;
+    border-radius: 10px;
+    font-family: 'Mina', sans-serif;
+    text-align: center;
+    font-size: 18px;
+    padding: 10%;
+    margin-top: 8px;
+    margin-bottom: 2px;
+    margin-right: 4px;
 }
