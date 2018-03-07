@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Register</title>
     <script src="js/javascript.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Mina" rel="stylesheet"> 
 </head>
 <body>
-    <div class="container wel">
+    <div class="container">
         <div class="dropdowncontainer show">
             <div class="nav2 unshow">
                 <a onclick="dropdown()"><i class="fa fa-reorder fa-3x"></i></a>
@@ -23,7 +24,13 @@
             <div class="topshit"></div>
             <div class="login"><i class="fa fa-street-view fa-3x"></i></div>
         </header>
-        <p class="welcome"> Welcome <?php echo $_GET["usr"]; ?> </p>
-    </div>
+        <form action="./action_page.php" method="get">
+            <p style = "font-size:18px">Username</p>
+            <input name="usr" type="text"><br>
+            <p style = "font-size:18px">Password</p>
+            <input name="Password" type="password"><br><br>
+            <input class="submit" type="submit" value="Login">
+        </form>
+    </div>  
 </body>
 </html>
