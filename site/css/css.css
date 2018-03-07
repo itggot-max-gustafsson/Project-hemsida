@@ -8,7 +8,7 @@ body {
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(13, 1fr);
-    background-color: black;
+    background-color: white;
 }
 
 header {
@@ -112,4 +112,32 @@ div {
 
 img {
     width: 100vw;
+}
+
+form {
+    grid-column: 4/11;
+    width: 100%;
+    height: 100%;
+}
+
+input {
+    grid-column: 4/11;
+    width: 100%;
+    height: 20%;
+    border: solid 2px green;
+    border-radius: 10px;
+    font-family: 'Mina', sans-serif;
+    text-align: center;
+    font-size: 18px;
+}
+
+.submit {
+    align-self: center;
+    grid-column: 9/11;
+    width: 60%
+}
+
+p {
+    font-family: 'Mina', sans-serif;
+    text-align: center;
 }
