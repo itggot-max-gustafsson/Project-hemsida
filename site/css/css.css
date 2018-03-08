@@ -161,3 +161,24 @@ p {
     margin-bottom: 2px;
     margin-right: 4px;
 }
+
+.navpart1 {
+    grid-row: 2/3;
+    grid-column: 1/2;
+    color: wheat;
+    border-top: solid 1px wheat;
+}
+
+.navpart2 {
+    grid-row: 3/4;
+    grid-column: 1/2;
+    color: wheat;
+    border-top: solid 1px wheat;
+}
+
+.navpart3 {
+    grid-row: 4/5;
+    grid-column: 1/2;
+    color: wheat;
+    border-top: solid 1px wheat;
+}

@@ -10,10 +10,13 @@
     <script src="js/javascript.js"></script>
 </head>
 <body>
-    <div class="container wel">
+    <div class="container">
         <div class="dropdowncontainer show">
             <div class="nav2 unshow">
                 <a onclick="dropdown()"><i class="fa fa-reorder fa-3x"></i></a>
+                <a class="navpart1" href="./index.html">Home</a>
+                <a class="navpart2" href="./register.html">Register</a>
+                <a class="navpart3" href="./login.html">Login</a>
             </div>
         </div>    
         <header>
@@ -21,7 +24,7 @@
                 <a onclick="dropdown()"><i class="fa fa-reorder fa-3x"></i></a>
             </div>
             <div class="topshit"></div>
-            <div class="login"><i class="fa fa-street-view fa-3x"></i></div>
+            <div class="login"><a class="fa fa-street-view fa-3x" href="./login.html"></a></div>
         </header>
         <p class="welcome"> Welcome <?php echo $_GET["usr"]; ?> </p>
     </div>
