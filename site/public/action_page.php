@@ -2,13 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=`, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="css/css.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>Home</title>
+    <title>Register</title>
     <script src="js/javascript.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Mina" rel="stylesheet"> 
 </head>
 <body>
     <div class="container">
@@ -27,20 +26,7 @@
             <div class="topshit"></div>
             <div class="login"><a class="fa fa-street-view fa-3x" href="./login.html"></a></div>
         </header>
-        <img src="./img/main.jpg" alt="Gym">
-            <a class= "buy" href="./register.html">Bli Medlem!</a>
-        </img>
-        <div class="bottom">
-            <aside class="tider">
-                <h4>Tider</h4>
-                <h5>Mon 9:00 - 15:00</h5>
-                <h5>Tis 9:00 - 15:00</h5>
-                <h5>Ons 9:00 - 15:00</h5>
-                <h5>Tor 9:00 - 15:00</h5>
-                <h5>Fre 9:00 - 15:00</h5>
-            </aside>
-            <aside class="secondpic"></aside>
-        </div>
+        <p class="welcome"> Welcome <?php echo $_GET["usr"]; ?> </p>
     </div>
 </body>
 </html>
