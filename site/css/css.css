@@ -214,15 +214,17 @@ p {
         grid-column: 2/4;
         grid-row: 1/2;
     }
-    nav3{
-        grid-column: 1/6;
-        grid-row: 1/17;
+    .nav4{
         background-color: green;
         text-align:center;
         padding-left: 15px;
         display: grid;
         grid-template-columns: repeat(12, 1fr);
         grid-template-rows: repeat(16, 1fr); 
+        grid-column: 1/13;
+        grid-row: 1/17;
+        border-right: solid 1px hotpink;
+ 
     }
 
 }
