@@ -185,7 +185,21 @@ p {
     border-top: solid 1px wheat;
 }
 
-@media (min-width: 360px) {
+@media (min-width: 540px) {
+    .dropdowncontainer{
+        display: none;
+    }
+    .fa-reorder{
+        display: none;
+        color: wheat;
+    }
+    .dropdowncontainer2{
+        width: 180;
+        margin: 0 auto;
+        position: absolute;
+        display: grid;
+        grid-template-rows: repeat(6, 1fr);  
+    }
     .container{
         width:360px;
         margin: 0 auto;
@@ -201,7 +215,10 @@ p {
     
 }
 
-@media (max-width: 360px) {
+@media (max-width: 540px) {
+    .dropdowncontainer2{
+        display: none;
+    }
     .container{
         width: 100vw;
     }
@@ -213,6 +230,9 @@ p {
 
 @media (max-height: 640px) {
     .container{
+        height: 100vh;
+    }
+    .dropdowncontainer {
         height: 100vh;
     }
     
