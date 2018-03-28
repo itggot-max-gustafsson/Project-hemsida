@@ -26,7 +26,7 @@
             <div class="topshit"></div>
             <div class="login"><a class="fa fa-street-view fa-3x" href="./login.html"></a></div>
         </header>
-        <p class="welcome"> Welcome <?php echo $_GET["usr"]; ?> </p>
+        <p class="welcome"> Welcome <?php echo $_POST["urs"]; ?> </p>
     </div>
 </body>
 </html>
